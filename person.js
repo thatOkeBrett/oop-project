@@ -6,8 +6,12 @@ class Person{
    this.interests = interests;
   }
   hello(){
-    console.log(`Hello, my name is ${this.name}  and I am ${this.age} years old.I am ${this.gender} and my interests are ${this.interests}`)
+    return(`Hello, my name is ${this.name}  and I am ${this.age} years old.I am ${this.gender} and my interests are ${this.interests}`)
   }
 }
 let person = new Person('Ryan',30,'male',['being a hardarse','agile', ' and ssd hard drives'] )
-person.hello()
+let greeting =person.hello()
+
+console.log(greeting)
+
+
