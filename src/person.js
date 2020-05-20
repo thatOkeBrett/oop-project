@@ -6,7 +6,7 @@ class Person {
     this.interests = interests;
   }
   hello() {
-    return `Hello, my name is ${this.name}  and I am ${this.age} years old.I am ${this.gender} and my interests are ${this.interests[0]}, ${this.interests[0]} and ${this.interests[2]}`;
+    return `Hello, my name is ${this.name}  and I am ${this.age} years old.My interests are ${this.interests[0]}, ${this.interests[0]} and ${this.interests[2]}`;
   }
 }
 let person = new Person("Ryan", 30, "male", [
